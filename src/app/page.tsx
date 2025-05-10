@@ -50,7 +50,7 @@ export default function Home() {
       
       {/* Galería: ocupa todo el espacio restante */}
       <div className="flex-grow max-w-3xl mx-auto space-y-12 mt-6">
-        {fotos.map((foto, index) => (
+        {fotos.map((foto) => (
           <div key={foto.src} className="w-full rounded overflow-hidden group relative">
             <Image
               src={foto.src}
