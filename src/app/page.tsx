@@ -1,7 +1,6 @@
 // src/app/page.tsx
 'use client';
 import Image from 'next/image'
-import { useState } from 'react'
 
 const fotos = [
   {
@@ -16,7 +15,7 @@ const fotos = [
   },
   {
     src: '/images/image3.png',
-    title: 'Nebula Dreams',
+    title: 'Celestial Harmony',
     year: '2023'
   }
   // ...
